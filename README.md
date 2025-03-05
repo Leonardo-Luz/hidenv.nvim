@@ -6,10 +6,6 @@
 
 * Real-time hiding of environment variables.
 
-**Dependencies:**
-
-* `leonardo-luz/floatwindow.nvim`
-
 **Installation:**
 
 Add `leonardo-luz/hidenv.nvim` to your Neovim plugin manager (e.g., in your `init.lua` or `plugins/hidenv.lua`).  For example:
