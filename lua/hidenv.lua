@@ -75,7 +75,6 @@ end
 
 M.setup = function(opts)
   state.active = opts.active
-  vim.print(state.active)
 end
 
 vim.api.nvim_create_autocmd("VimEnter", {
