@@ -53,7 +53,7 @@ M.start = function()
         M.hide(state.highlight)
       end,
     })
-    state.insertchar_id = vim.api.nvim_create_autocmd("TextChangedI", {
+    state.insertchar_id = vim.api.nvim_create_autocmd({ "TextChangedI", "TextChanged" }, {
       pattern = ".env",
       callback = function()
         M.hide(state.highlight)
